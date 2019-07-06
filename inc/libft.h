@@ -6,7 +6,7 @@
 /*   By: tkatolik <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:51:54 by tkatolik          #+#    #+#             */
-/*   Updated: 2019/06/22 18:50:53 by tkatolik         ###   ########.fr       */
+/*   Updated: 2019/07/05 18:37:54 by tkatolik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -129,6 +129,7 @@ char				*ft_ftobige(long double num, int presicion);
 size_t				ft_strwrdc(char const *str);
 int					ft_atoi_base(char const *str, int str_base);
 char				*ft_strndup(char const *str, size_t len);
+void				ft_strrev(char *str);
 
 /*
 **	/////////////  lst _____
